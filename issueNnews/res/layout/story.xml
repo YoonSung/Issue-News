@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="32.83dp"
+    android:background="#000">
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/aboutN"
+        android:layout_width="298.15dp"
+        android:layout_height="67dp"
+        android:background="@drawable/s1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/aboutD"
+        android:layout_width="298.15dp"
+        android:layout_height="67dp"
+        android:background="@drawable/s2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/app"
+        android:layout_width="298.15dp"
+        android:layout_height="67dp"
+        android:background="@drawable/s3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/recommend"
+        android:layout_width="298.15dp"
+        android:layout_height="67dp"
+        android:background="@drawable/s4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mail"
+        android:layout_width="298.15dp"
+        android:layout_height="67dp"
+        android:background="@drawable/s5" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="298.15dp"
+        android:layout_height="67dp"
+        android:background="@drawable/s6" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

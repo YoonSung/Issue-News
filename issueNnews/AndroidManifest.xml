@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.DooitResearch.issueNnews"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:icon="@drawable/icon"
+        android:label="이슈앤뉴스">
+        <activity
+	           	  android:name="Splash"
+	           	  android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login"
+                  ></activity>
+        <activity android:name="Webview"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="Story"
+            	  android:launchMode="singleTop"
+            	  android:theme="@style/Theme.Translucent"
+  	              ></activity>
+        <activity android:name="Intro_Dooit"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="Intro_Issue"
+                  android:screenOrientation="portrait"></activity>
+    </application>
+</manifest>

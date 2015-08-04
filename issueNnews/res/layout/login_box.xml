@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text=" I D"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff"
+            android:textSize="18sp"
+			android:gravity="center"
+			android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/eid"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="아이디."
+            android:inputType="textVisiblePassword"
+            android:nextFocusDown="@+id/edtPw"
+            android:singleLine="true">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp" >
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="P W"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginRight="10dp" />
+        <EditText
+            android:id="@+id/epw"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="비밀번호."
+            android:inputType="textPassword"
+            android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

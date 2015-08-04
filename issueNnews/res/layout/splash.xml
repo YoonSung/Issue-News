@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="143.38dp"
+        android:layout_height="12.06dp"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:background="@drawable/text0"
+        android:layout_gravity="top|left" >
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+	
+        <LinearLayout
+            android:layout_width="321.6dp"
+            android:layout_height="292.12dp"
+            android:orientation="vertical"
+            android:background="@drawable/s_center"
+            android:layout_gravity="center" >
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="184.25dp"
+            android:layout_height="279.39dp"
+            android:orientation="vertical"
+            android:background="@drawable/s_glass"
+            android:layout_gravity="right|center_vertical">
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="vertical"
+        android:gravity="bottom|center_horizontal">
+
+        <ImageView
+            android:layout_width="231.15dp"
+            android:layout_height="28.14dp"
+            android:src="@drawable/text1"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:layout_width="145.39dp"
+            android:layout_height="15.41dp"
+            android:src="@drawable/text2"
+            android:layout_marginBottom="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

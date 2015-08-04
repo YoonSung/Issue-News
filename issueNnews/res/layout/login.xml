@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="32.83dp">
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="254.6dp"
+                android:layout_height="231.15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:background="@drawable/l_center">
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp" >
+                <Button
+                    android:id="@+id/btnYes"
+                    android:layout_width="0px"
+                    android:layout_weight="50"
+                    android:layout_height="60dp"
+                    android:text="회원접속"
+                    android:textColor="#fff"                    
+                    android:onClick="btnYes"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/b_tnin" />
+                <Button
+                    android:id="@+id/btnNot"
+                    android:layout_width="0px"
+                    android:layout_weight="50"
+                    android:layout_height="60dp"
+                    android:textColor="#fff"                    
+                    android:text="비회원접속"
+                    android:onClick="btnNot"
+                    android:background="@drawable/b_tnin"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnJoin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:text="회원가입"
+                    android:textColor="#fff"
+                    android:onClick="btnJoin"
+                    android:background="@drawable/j_oin" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.DooitResearch.issueNnews.Bottom_Flipper
+        android:id="@+id/bottomflipper"
+        android:layout_width="fill_parent"
+        android:layout_height="32.83dp"
+        android:layout_gravity="bottom" >
+    </com.DooitResearch.issueNnews.Bottom_Flipper>
+</FrameLayout>
